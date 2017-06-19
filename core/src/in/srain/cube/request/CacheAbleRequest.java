@@ -24,8 +24,8 @@ public class CacheAbleRequest<T> extends RequestBase<T> implements ICacheAbleReq
     protected static final String LOG_TAG = "cube-cache-request";
 
     private CacheAbleRequestHandler<T> mHandler;
-
     private T mCacheData;
+
     private boolean mOutOfDate;
     private String mCacheKey = null;
 
